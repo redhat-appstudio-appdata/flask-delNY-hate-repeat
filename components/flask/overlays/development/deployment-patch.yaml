@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: flask
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/sluetzen-tenant/flask/flask@sha256:a564494d4a135ac69d81071136ac18c2d491ac14ef14ac339767a7c3650c1ce8
+        name: my-python
+        resources: {}
+status: {}
