@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/sluetzen-tenant/flask/flask@sha256:8bc3f8991121cd3cf6420746e3015a206259a47ac1c4cc565c2f7b5e840cd3c0
+      - image: quay.io/redhat-user-workloads/sluetzen-tenant/flask/flask@sha256:1b64a0ffa75fbba27f1c362c18e3a9c3073a37a9e52669e3868c9161b7cc891c
         name: my-python
         resources: {}
 status: {}
