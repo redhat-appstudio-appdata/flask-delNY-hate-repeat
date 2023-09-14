@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: flask
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/sluetzen-tenant/flask/flask@sha256:9ddad956046d44ce367b9c82c8635a69b9e4e873b03b26cc52c1be38f4f4092d
+      - image: quay.io/redhat-user-workloads/sluetzen-tenant/flask/flask@sha256:8bc3f8991121cd3cf6420746e3015a206259a47ac1c4cc565c2f7b5e840cd3c0
         name: my-python
         ports:
         - containerPort: 8081
